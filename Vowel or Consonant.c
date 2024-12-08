@@ -1,5 +1,7 @@
 //Write a program to check if a character is a vowel or a consonant using the switch-case statement
 #include<stdio.h>
+#include <ctype.h>
+
 int main()
 {
     char x;
