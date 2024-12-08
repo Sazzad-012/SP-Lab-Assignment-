@@ -2,14 +2,21 @@
 #include <stdio.h>
 int main()
 {
+    printf("Enter your score between 1 to 10 :- ");
     int x;
     scanf("%d", &x);
     char grade;
-    switch (x / 10)
+    switch (x )
     {
         case 10:
+             grade = 'A';
+            break;
         case 9:
+             grade = 'A';
+            break;
         case 8:
+             grade = 'A';
+            break;
         case 7:
             grade = 'A';
             break;
